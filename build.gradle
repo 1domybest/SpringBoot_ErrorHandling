@@ -42,7 +42,7 @@ dependencies {
 	// =============
 
 	compileOnly 'org.projectlombok:lombok' // 롬복
-	runtimeOnly 'com.h2database:h2' // db
+	runtimeOnly 'com.mysql:mysql-connector-j'
 	annotationProcessor 'org.projectlombok:lombok' // 어노테이션 설정
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
